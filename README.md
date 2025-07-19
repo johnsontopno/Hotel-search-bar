@@ -1,3 +1,3 @@
 # Hotel-search-bar
 
-![image](https://github.com/johnsontopno/Hotel-search-bar/assets/66691981/59972417-c178-4dd5-937e-98c0bd20d701)
+<img width="1904" height="874" alt="Screenshot 2025-07-19 211108" src="https://github.com/user-attachments/assets/c3b98418-b2cd-4a3b-a0fe-8c6adf4a1d76" />
