@@ -1,72 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Find Everything Near You</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Everything Near You</title>
 
-  <!-- Font Awesome for icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-p+U++QdEjjxF9vMJPfa9G0ZmvzX5j5Yvl7A8kFfHjETqVhDy84CekHvb1CjYx1oS0lD6HVdwhtb+ZV3e1kf4vg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-p+U++QdEjjxF9vMJPfa9G0ZmvzX5j5Yvl7A8kFfHjETqVhDy84CekHvb1CjYx1oS0lD6HVdwhtb+ZV3e1kf4vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- External Styles -->
-  <link rel="stylesheet" href="design.css" />
+    <!-- External Styles -->
+    <link rel="stylesheet" href="design.css" />
 </head>
+
 <body>
-  <header class="header">
-    <div class="form-container">
-      <h1 class="main-title">Find Everything Near You</h1>
+    <header class="header">
+        <div class="form-container">
+            <h1 class="main-title">Find Everything Near You</h1>
 
-      <form class="search-form" role="search" aria-label="Business search form">
-        <!-- Business Input -->
-        <label for="business" class="visually-hidden">Business or Service</label>
-        <input
-          type="text"
-          id="business"
-          class="search-field business"
-          name="business"
-          placeholder="Business, Services..."
-          aria-required="true"
-          required
-        />
+            <form class="search-form" role="search" aria-label="Business search form">
+                <!-- Business Input -->
+                <label for="business" class="visually-hidden">Business or Service</label>
+                <input type="text" id="business" class="search-field business" name="business"
+                    placeholder="Business, Services..." aria-required="true" required />
 
-        <!-- Location Input -->
-        <label for="location" class="visually-hidden">Location</label>
-        <input
-          type="text"
-          id="location"
-          class="search-field location"
-          name="location"
-          placeholder="Location"
-          aria-required="true"
-          required
-        />
+                <!-- Location Input -->
+                <label for="location" class="visually-hidden">Location</label>
+                <input type="text" id="location" class="search-field location" name="location" placeholder="Location"
+                    aria-required="true" required />
 
-        <!-- Date Input -->
-        <label for="date" class="visually-hidden">Select Date</label>
-        <div class="date-wrapper">
-          <input
-            type="date"
-            id="date"
-            class="search-field date"
-            name="date"
-            aria-required="true"
-            required
-          />
-          <i class="fa fa-calendar calendar-icon" aria-hidden="true"></i>
+                <!-- Date Input -->
+                <label for="date" class="visually-hidden">Select Date</label>
+                <div class="date-wrapper">
+                    <input type="date" id="date" class="search-field date" name="date" aria-required="true" required />
+                    <i class="fa fa-calendar calendar-icon" aria-hidden="true"></i>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="search-btn" aria-label="Search">
+                    <i class="fa fa-search" aria-hidden="true"></i> Search
+                </button>
+            </form>
         </div>
-
-        <!-- Submit Button -->
-        <button type="submit" class="search-btn" aria-label="Search">
-          <i class="fa fa-search" aria-hidden="true"></i> Search
-        </button>
-      </form>
-    </div>
-  </header>
+    </header>
 </body>
+
 </html>
